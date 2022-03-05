@@ -20,7 +20,7 @@ body {
 
 .container{
     background-color: aliceblue;
-    width: 10%;
+    width: 13%;
     flex: auto;
     justify-content: center;
     align-items: center;
@@ -41,5 +41,10 @@ p{
     font-display: bold;
     font-style: initial;
     color: orange; 
+}
+
+h2{
+    color: black;
+    font-style: italic;
 }
 
