@@ -115,7 +115,7 @@ function countdown() {
 var i = 0;
 function main() {
   var getoption = answers[i].options
-  console.log(answers[i])
+  // console.log(answers[i])
   for (var j=0; j<getoption.length;j++){
     questionText.textContent = answers[i].question;
     answerAtest.textContent = answers[i].options[0].A;
@@ -131,6 +131,10 @@ function main() {
 }
 
 
+// var Style = function color(){
+
+// }
+// document.getElementsByClassName('container').addEventListener("click", addCss)
 
 document.getElementById("startButton").addEventListener("click", countdown);
 

@@ -12,6 +12,10 @@ body {
     background-color: aqua;
 }
 
+button:hover{background-color:purple;}
+
+button:focus{background-color: orange;}
+ 
 .hide{
     display: none;
     /* visibility: hidden; */
@@ -28,7 +32,7 @@ body {
 
 .head{
     background-color: grey;
-    height: 60px;
+    height: 80px;
 }
 
 h3{
