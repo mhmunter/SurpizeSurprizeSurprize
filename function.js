@@ -55,7 +55,7 @@ var answerDtest = document.getElementById('AnswerD')
 
 
 function countdown() {
-  var timeLeft = 5;
+  var timeLeft = 30;
 
   var timeInterval = setInterval(function () {
 
@@ -68,7 +68,7 @@ function countdown() {
 
   }, 1000);
   // end timer message-------------------
-  var delay = 6000; // delay time in milliseconds
+  var delay = 30000; // delay time in milliseconds
 
   var timeoutId = setTimeout(function () {
     alert('Times up partner!');
